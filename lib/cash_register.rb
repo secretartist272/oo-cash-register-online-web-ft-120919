@@ -28,7 +28,7 @@ class CashRegister
   end
   
   def items_with_price
-    items_with_price = item + price
+    @items_with_price = item + price
   end
   
   def apply_discount
